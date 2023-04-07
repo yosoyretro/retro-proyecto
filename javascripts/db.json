@@ -1,0 +1,9 @@
+{
+    "publicaciones" : [
+     { "id" : 1 , "título" : " json-server " , "autor" : " typicode " }
+   ],
+   "comentarios" : [
+     { "id" : 1 , "cuerpo" : " algún comentario " , "postId" : 1 }
+   ],
+   "perfil" : { "nombre" : " código tipo " }
+ }

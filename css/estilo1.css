@@ -1,0 +1,50 @@
+.bg-color-f{
+    background-color:#0da487;
+    /*background-color: brown;*/
+}
+.hi{
+    color:#0da487;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.cuadro_titulo {
+    height: 50px;
+    margin: -10px;
+    background-color: #4e73df;
+    color: white;
+    padding: 14px;
+}
+
+.bt-color{
+
+    color:white;
+    background-color:#0da487;
+}
+.border-color{
+    border-color: #4e73df;
+}
+.text-color{
+    color: #ffffff;
+}
+.box-shadow{
+    box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.589);
+}
+
+.logos {
+    color:white;
+}
+
+.ident i{
+    color: white;
+}    
