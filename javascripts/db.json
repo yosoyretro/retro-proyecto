@@ -1,5 +1,5 @@
 {
-    "publicaciones" : [
+    "publicaciones" :[
      { "id" : 1 , "título" : " json-server " , "autor" : " typicode " }
    ],
    "comentarios" : [

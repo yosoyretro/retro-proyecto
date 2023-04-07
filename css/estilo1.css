@@ -1,8 +1,10 @@
 .bg-color-f{
     background-color:#0da487;
-    /*background-color: brown;*/
 }
 .hi{
+    color:#0da487;
+}
+nav .i{
     color:#0da487;
 }
 .modal-content {

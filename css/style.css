@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Titan+One&display=swap');
+/*Barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f6f4f7;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: end;
+}
+/*ESTILO GENERALES*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3.0rem;
+}
+
+.experiencia{
+    padding: 40px;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge-contenedor{
+    font-size: 30x;
+    font-weight: bold;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+.badge{
+    margin: 1px 3px;
+}
+.experiencia i{
+    font-size: 5rem;
+    color: greenyellow;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+/*SECCION HERO*/
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal{
+    padding: 4rem;
+}
+.hero-imagen-desarrollador{
+    box-shadow: -5px 0px 25px 0px rgb(148, 147, 147);
+    border: black solid 5px;
+    height: 225px;
+    width: 230px;
+    margin: 20px;
+}
+.seccion-oscura{
+    color:white;
+    background-color: rgb(11, 10, 34);
+}
+.seccion-clara{
+    color:black;
+    background-color: white;
+}
+.seccion-titulo{
+    font-family: 'Titan One', cursive;
+}
+.seccion-texto{
+    font-family: 2rem;
+}
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+.experiencia .columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    transition: all 0.5s ease;
+    border: 2px solid rgba(39, 39, 39, 0.692);
+}
+.experiencia .columna:hover{
+    color:white;    
+    cursor: pointer;
+    background-color: rgb(11, 10, 34);
+}
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color:#584e4e
+}
+.proyecto-reciente{
+    padding: 40px;
+}
+.texto-negro{
+    color: black;
+}
+.texto-blanco{
+    color:white;
+}
+.proyecto-reciente img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10%;
+    display: block;
+    transition: all 0.25 ease;
+}
+.overlay{
+    transition: all 0.02s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
+.proyecto{
+    position: relative;
+}
+.proyecto:hover img{
+    opacity: 0.2;
+}
+.overlay p{
+    font-size: 25px;
+    color:black;
+    margin-bottom:0;
+
+}
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+.proyecto-contenedor{
+    padding-top:60px;
+    margin-bottom:40px; 
+}
+/*ADAPTABLE RESPONSIVO*/
+@media screen and (max-width:765px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    .hero-inferior-imagen{
+        max-width: 500px;
+    }
+}
